@@ -49,7 +49,7 @@
     }
   },
   "body": {
-    "comment": "Our Telenet Club has been watching the debates concerning the development of the Cardano Constitution for about 6 months.  Our club advisor, Cameron Smith who was the Delegate for the Vancouver workshop, has been involved in several workshops and has been discussing the debates in community groups with students and parents in our community.  We vote yes because we have witnessed the development, watched live streams of the ratifications, and while we don't understand everything in Cardano, we trust that this will be a strong foundation to start from.  We also look forward to contributing to the improvement of the constitution!\n\nWe have seen some discussions bringing forth points of weakness in the constitution, but many of them haven't listened to the rigorous process during the workshops that led to certain decisions.  We don't think the entire constitution is perfect, but there aren't significant attack vectors, and it will give us the starting point to show the world what decentralized governance can be."
+    "comment": "We believe after watching Andrew Westberg's \"Let's have a Teaparty\"  video there are good reasons to reduce the TAU parameter.  We can always increase it later if we learn to manage the Treasury in a way that improves the Cardano Ecosystem."
   },
   "hashAlgorithm": "blake2b-256"
 }
