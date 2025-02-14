@@ -49,7 +49,7 @@
     }
   },
   "body": {
-    "comment": "We believe after watching Andrew Westberg's \"Let's have a Teaparty\"  video there are good reasons to reduce the TAU parameter.  We can always increase it later if we learn to manage the Treasury in a way that improves the Cardano Ecosystem."
+    "comment": "We believe that increasing staking rewards for delegators in the short term will be a net positive while we learn how to effectively manage the treasury as a community. "
   },
   "hashAlgorithm": "blake2b-256"
 }
