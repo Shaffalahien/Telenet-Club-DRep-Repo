@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP100:body",
+      "@context": {
+        "references": {
+          "@id": "CIP100:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP100:referenceHash",
+              "@context": {
+                "hashDigest": "CIP100:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "comment": "CIP100:comment",
+        "externalUpdates": {
+          "@id": "CIP100:externalUpdates",
+          "@context": {
+            "title": "CIP100:update-title",
+            "uri": "CIP100:uri"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "body": {
+    "comment": "Our Telenet Club has been watching the debates concerning the development of the Cardano Constitution for about 6 months.  Our club advisor, Cameron Smith who was the Delegate for the Vancouver workshop, has been involved in several workshops and has been discussing the debates in community groups with students and parents in our community.  We vote yes because we have witnessed the development, watched live streams of the ratifications, and while we don't understand everything in Cardano, we trust that this will be a strong foundation to start from.  We also look forward to contributing to the improvement of the constitution!\n\nWe have seen some discussions bringing forth points of weakness in the constitution, but many of them haven't listened to the rigorous process during the workshops that led to certain decisions.  We don't think the entire constitution is perfect, but there aren't significant attack vectors, and it will give us the starting point to show the world what decentralized governance can be."
+  },
+  "hashAlgorithm": "blake2b-256"
+}
